@@ -1,0 +1,5 @@
+name: FreshWaterLandfallX
+main: com.example.crossserver.CrossServerPlugin
+version: 1.0.0
+author: 淡水岛开发组
+description: 跨服登录监听：UUID 白名单 / IP 黑名单校验，并将真实玩家信息转发给子服。

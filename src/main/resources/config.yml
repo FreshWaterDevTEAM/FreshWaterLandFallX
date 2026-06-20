@@ -1,0 +1,29 @@
+# ============================================================
+# FreshWaterLandfallX 配置文件
+# ============================================================
+
+# 是否开启 UUID 白名单校验。
+# true  = 只有 allowed-uuids 列表中的玩家可以登录
+# false = 不校验白名单，所有玩家都允许（仍会进行 IP 黑名单校验）
+whitelist-enabled: true
+
+# 允许登录的玩家 UUID 列表（标准带横线格式，与 UUID.toString() 一致）。
+# 示例：
+# allowed-uuids:
+#   - "069a79f4-44e9-4726-a5be-fca90e38aaf5"
+#   - "853c80ef-3c37-49fd-aa49-938b674adae6"
+allowed-uuids: []
+
+# 被封禁的 IP 列表（玩家真实 IP，命中即拒绝登录）。
+# 示例：
+# banned-ips:
+#   - "1.2.3.4"
+#   - "5.6.7.8"
+banned-ips: []
+
+# 将玩家真实信息转发给其连接的子服。
+forward:
+  # 是否开启转发
+  enabled: true
+  # 命名空间化的插件消息通道名（子服需注册相同通道接收）
+  channel: "crossserver:login"
