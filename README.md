@@ -19,7 +19,9 @@ Waterfall（BungeeCord API 兼容）跨服登录监听插件。用于 **Velocity
 mvn clean package
 ```
 
-产物位于 `target/FreshWaterLandfallX-1.0.0.jar`。
+产物位于 `target/FreshWaterLandfallX-1.0.1.jar`。
+
+> 说明：插件以 Java 8 字节码编译（`maven.compiler.release=8`），兼容运行在 Java 8 及以上的 Waterfall/BungeeCord 服务器。
 
 ## 部署
 
